@@ -1,4 +1,26 @@
-# NLP-part1
+🧠 Natural Language Processing (NLP) Project with Tokenization, Lemmatization, Stemming, NER & NLG
+This project provides a hands-on implementation of key Natural Language Processing (NLP) techniques using pure Python or lightweight libraries. It focuses on the following components:
+
+🔹 Tokenization
+Splits raw text into individual words, phrases, or tokens.
+Useful for downstream tasks like analysis, tagging, and generation.
+Example:
+Input: "NLP is fun to learn!"
+Output: ['NLP', 'is', 'fun', 'to', 'learn', '!']
+
+🔹 Lemmatization
+Reduces words to their base or dictionary form (lemma).
+Ensures that variations of a word are treated as the same concept.
+Example:
+Input: "running, runs, ran"
+Output: run, run, run
+
+🔹 Stemming
+Trims words down to their root form by removing suffixes.
+A faster but less accurate alternative to lemmatization.
+Example:
+Input: "playing, played, player"
+Output: play, play, play
 
 🏷️ Named Entity Recognition (NER)
 Identifies and extracts key entities such as people, locations, dates, and organizations from plain text.
